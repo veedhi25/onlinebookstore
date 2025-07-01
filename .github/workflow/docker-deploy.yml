@@ -18,7 +18,7 @@ jobs:
         distribution: 'temurin'
         java-version: '17'  # adjust if you're using a different version
 
-    - name: Build with Maven
+    - name: Build with Maven3
       run: mvn clean package
 
     - name: Set up Docker Buildx
